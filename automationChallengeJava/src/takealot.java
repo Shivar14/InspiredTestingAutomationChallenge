@@ -19,7 +19,7 @@ public class takealot {
 		driver.findElement(By.className("search-field")).sendKeys(Keys.ENTER);
 		Thread.sleep(1000);
 		//driver.findElement(By.id("70627462")).click();
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
 	
 		driver.findElement(By.cssSelector(".add-to-cart-button:first-of-type")).click();
 		//driver.findElement(By.cssSelector(".add-to-cart-button:first-of-type")).click();

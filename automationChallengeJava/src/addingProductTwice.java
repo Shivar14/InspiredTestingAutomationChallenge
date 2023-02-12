@@ -15,9 +15,9 @@ public class addingProductTwice {
 				driver.get("https://www.takealot.com/");
 				//Accepting the cookies
 				driver.findElement(By.className("cookies-banner-module_dismiss-button_24Z98")).click();
-				//Clicking on search bar and entering a product
+				//Clicking on search bar and then entering a product
 				driver.findElement(By.className("search-field")).sendKeys("PS5 Console");
-				//Entering on search bar to search product
+				//Entering on search bar to search that product
 				driver.findElement(By.className("search-field")).sendKeys(Keys.ENTER);
 				//Allowing wait time
 				Thread.sleep(1000);
