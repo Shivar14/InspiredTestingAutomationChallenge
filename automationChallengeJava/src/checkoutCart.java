@@ -12,7 +12,7 @@ public class checkoutCart {
 		
 		//Getting the website
 		driver.get("https://www.takealot.com/");
-		//Accepting the cookies
+		//Accepting the cookies on the website
 		driver.findElement(By.className("cookies-banner-module_dismiss-button_24Z98")).click();
 		//Clicking on checkout cart
 		

@@ -13,11 +13,11 @@ public class addMultipleProductsToCart {
 				
 				//Getting the website
 				driver.get("https://www.takealot.com/");
-				//Accepting the cookies
+				//Accepting the cookies on the website
 				driver.findElement(By.className("cookies-banner-module_dismiss-button_24Z98")).click();
-				//Clicking on search bar and entering a product
+				//Clicking on search bar and typing a product
 				driver.findElement(By.className("search-field")).sendKeys("PS5 Console");
-				//Entering on search bar to search product
+				//Entering on search bar to search thta product
 				driver.findElement(By.className("search-field")).sendKeys(Keys.ENTER);
 				//Allowing wait time
 				Thread.sleep(1000);
